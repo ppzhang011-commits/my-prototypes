@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="applications";const e=/^\/ext\/[^/]+\/applications\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(e).catch(t=>{document.body.insertAdjacentHTML("beforeend",`<pre style="padding:16px;color:#c00;white-space:pre-wrap">${t.stack||t}</pre>`)});
