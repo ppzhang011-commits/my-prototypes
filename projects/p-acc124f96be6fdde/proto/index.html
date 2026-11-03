@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="data:," />
     <title>学生社团｜桌面端原型</title>
-    <script data-prototype-owned data-proto-hotspot-bootstrap data-proto-review="hotspots">
+  <script data-prototype-owned data-proto-hotspot-bootstrap data-proto-review="hotspots">
 /* 点击空白时短暂提示本次需求范围内的真实交互；未声明范围时不扫描整页。 */
 (() => {
     'use strict';
@@ -312,21 +312,68 @@
 })();
 
 </script>
-<script type="module" crossorigin src="./assets/index-DH-56ZCg.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Dw60OcGJ.css">
-  </head>
+</head>
   <body>
     <!-- 供原型生成器校验的静态定位标记；下一段脚本会在 React 挂载前移除。 -->
     <div id="proto-import-markers" hidden>
       <div data-proto-id="clubs-task-entries">首页专项任务入口</div>
+      <button data-proto-id="clubs-analysis-entry" type="button">分析报告</button>
+      <button data-proto-id="clubs-review-entry" type="button">社团审核</button>
+      <button data-proto-id="clubs-credit-review-entry" type="button">社团学分审核</button>
+      <button data-proto-id="clubs-config-entry" type="button">配置</button>
       <div data-proto-id="clubs-filters">社团列表筛选</div>
+      <select data-proto-id="clubs-term-filter" aria-label="学期"><option>学期</option></select>
+      <input data-proto-id="clubs-search" placeholder="搜索社团名称、学生社长、联系电话" />
+      <select data-proto-id="clubs-category-filter" aria-label="社团类别"><option>社团类别</option></select>
+      <select data-proto-id="clubs-status-filter" aria-label="社团状态"><option>社团状态</option></select>
+      <button data-proto-id="clubs-advanced-filter-toggle" type="button">更多筛选</button>
+      <select data-proto-id="clubs-origin-filter" aria-label="社团来源"><option>社团来源</option></select>
+      <button data-proto-id="clubs-filter-reset" type="button">重置</button>
       <section data-proto-id="clubs-term-windows">学期时间安排</section>
       <section data-proto-id="clubs-list">正式社团列表</section>
       <button data-proto-id="clubs-proxy-application" type="button">代学生申报社团</button>
       <div data-proto-id="clubs-row-actions-1">围棋社行操作</div>
+      <button data-proto-id="clubs-view-1" type="button">查看</button>
+      <button data-proto-id="clubs-more-1" type="button">更多操作</button>
+      <section data-proto-id="club-detail-page">社团详情</section>
+      <button data-proto-id="club-detail-tab-info" type="button">社团信息</button>
+      <button data-proto-id="club-detail-tab-members" type="button">成员管理</button>
+      <button data-proto-id="club-detail-tab-activities" type="button">活动</button>
+      <button data-proto-id="club-detail-tab-showcase" type="button">作品与荣誉</button>
+      <button data-proto-id="club-detail-tab-credits" type="button">成员学分</button>
+      <button data-proto-id="club-detail-tab-history" type="button">社团历程</button>
+      <section data-proto-id="club-info-overview">当前情况</section>
+      <section data-proto-id="club-info-basics">基本信息</section>
+      <button data-proto-id="club-info-application-snapshot" type="button">查看本学期申报资料</button>
+      <section data-proto-id="club-info-venue">活动场地</section>
+      <section data-proto-id="member-management">成员管理</section>
+      <div data-proto-id="member-management-summary">成员概况</div>
+      <button data-proto-id="member-management-changes" type="button">查看变更记录</button>
+      <input data-proto-id="member-management-search" placeholder="搜索学生、年级、班级或角色" />
+      <button data-proto-id="member-management-import" type="button">导入成员</button>
+      <button data-proto-id="member-management-add" type="button">添加成员</button>
+      <section data-proto-id="member-management-list">当前成员名册</section>
+      <section data-proto-id="member-credits">成员学分</section>
+      <div data-proto-id="member-credits-summary">成员学分概况</div>
+      <section data-proto-id="member-credits-list">成员学分列表</section>
+      <section data-proto-id="club-history">社团历程</section>
+      <ol data-proto-id="club-history-list"><li>社团历程记录</li></ol>
     </div>
     <script>document.getElementById('proto-import-markers')?.remove();</script>
+    <!--
+      原型生成器通过 /ext/<项目ID>/index.html 提供此入口，不能解析 Vite 开发态的 /src/main.jsx。
+      工作台路径转向同项目内的构建产物；开发和构建路径仍由 Vite 打包 src/main.jsx。
+      上方静态标记仅供导入校验，实际标注落在运行时控件上。
+    -->
     <div id="root"></div>
+    <script type="module">
+      if (/^\/ext\/[^/]+\/index\.html$/.test(location.pathname)) {
+        const workbenchRuntime = './prototype-assets/runtime.js';
+        import(/* @vite-ignore */ workbenchRuntime);
+      } else {
+        import('/src/main.jsx');
+      }
+    </script>
   <!-- proto-review-bundle -->
 <script data-proto-review="appearance">
 /* PRD 内容色板与序号外观；编辑、导出和发布共用。 */
