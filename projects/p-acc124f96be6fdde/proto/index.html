@@ -367,7 +367,7 @@
     -->
     <div id="root"></div>
     <script type="module">
-      if (/^\/ext\/[^/]+\/index\.html$/.test(location.pathname)) {
+      if (/(?:^\/ext\/[^/]+\/|\/projects\/[^/]+\/proto\/)index\.html$/.test(location.pathname)) {
         const workbenchRuntime = './prototype-assets/runtime.js';
         import(/* @vite-ignore */ workbenchRuntime);
       } else {
