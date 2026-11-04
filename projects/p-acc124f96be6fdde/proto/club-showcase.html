@@ -322,7 +322,7 @@
     <script type="module">
       window.__TEACHER_DESKTOP_INITIAL_STATE__ = "club-showcase";
       document.getElementById("proto-import-markers")?.remove();
-      const runtime = /^\/ext\/[^/]+\/club-showcase\.html$/.test(location.pathname)
+      const runtime = /(?:^\/ext\/[^/]+\/|\/projects\/[^/]+\/proto\/)club-showcase\.html$/.test(location.pathname)
         ? "./prototype-assets/runtime.js"
         : "/src/main.jsx";
       import(/* @vite-ignore */ runtime);
