@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="category-settings";const t=/(?:^\/ext\/[^/]+\/|\/projects\/[^/]+\/proto\/)category-settings\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(t);
