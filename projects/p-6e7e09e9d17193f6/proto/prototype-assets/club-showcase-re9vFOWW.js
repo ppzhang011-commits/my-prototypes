@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="club-showcase";var t;(t=document.getElementById("proto-import-markers"))==null||t.remove();const e=/^\/ext\/[^/]+\/club-showcase\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(e);
