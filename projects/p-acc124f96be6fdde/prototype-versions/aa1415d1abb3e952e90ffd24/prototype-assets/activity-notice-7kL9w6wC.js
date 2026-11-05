@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="activity-notice";const t=/(?:^\/ext\/[^/]+\/|\/projects\/[^/]+\/proto\/)activity-notice\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(t);
