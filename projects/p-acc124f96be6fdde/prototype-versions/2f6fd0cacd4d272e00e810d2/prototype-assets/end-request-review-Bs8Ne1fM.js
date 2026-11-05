@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="end-request-review";const e=/(?:^\/ext\/[^/]+\/|(?:\/projects\/[^/]+\/)?(?:proto|prototype-versions\/[a-f0-9]{24})\/)end-request-review\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(e);
