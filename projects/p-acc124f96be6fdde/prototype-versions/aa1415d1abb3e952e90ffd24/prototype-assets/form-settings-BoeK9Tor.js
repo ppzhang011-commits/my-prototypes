@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";window.__TEACHER_DESKTOP_INITIAL_STATE__="form-settings";const t=/(?:^\/ext\/[^/]+\/|\/projects\/[^/]+\/proto\/)form-settings\.html$/.test(location.pathname)?"./prototype-assets/runtime.js":"/src/main.jsx";import(t);
